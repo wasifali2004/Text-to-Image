@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url(fire.png);
+    background-size: cover; /* This ensures the image covers the whole background */
+    color: white;
+    text-align: center;
+}
+
+.show {
+    display:  flex;
+}
+
+h1 {
+    font-size: 40px;
+    box-shadow: 0 0 10px white;
+    border: none;
+    outline: none;
+}
+
+label {
+    font-size: 20px;
+    margin: 10px 0 20px 0px;
+}
+
+.inps {
+    height: 220px;
+    width: 55%;
+    margin-top: 100px;
+}
+
+.inps label {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.inps input {
+    width: 300px;
+    height: 48px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 17px;
+    background: #032729;
+    padding-left: 20px;
+    color: white;
+    font-size: larger;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius:  10px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    outline: non;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #032729;
+    font-size: 1.2rem;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+.btn:hover{
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px#03e9f4,
+                0 0 50px #03e9f4,
+                0 0 300px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+.btn:first-child{
+    filter: hue-rotate(225deg);
+}
+.btn:last-child{
+    filter: hue-rotate(90deg);
+}
+span{
+    position: absolute;
+    display: block;
+}
+span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s infinite;
+}
+
+.image {
+    width: 40%;
+    height: 430px;
+    background-color: #032729;
+    background: transparent;
+    border: 2px solid black;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+   
+}
+
+.image img {
+    width: 100%;
+    height: 430px;
+    border-radius: 20px;
+}
