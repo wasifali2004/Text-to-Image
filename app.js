@@ -1,4 +1,5 @@
 const token = ""
+//Add token from hugging face to work properly
 const Inputtxt = document.querySelector("#inp");
 const btn = document.querySelector(".btn")
 const img = document.querySelector(".Image");
